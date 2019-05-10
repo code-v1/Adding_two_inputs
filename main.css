@@ -1,0 +1,35 @@
+html, body {
+    height: 100%;
+    box-sizing: border-box;
+    outline: none;
+    background-color: skyblue;
+    font-size: 20px;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: .1px 0;
+  }
+
+  button  {
+    padding: px;
+    border-radius: 5px;
+    border: 2px solid grey;
+  }
+
+  input {
+    padding: 12px;
+    border-radius: 5px;
+    border: 2px solid grey;
+    font-size: 15px;
+  }
+  
+  button:hover {
+      background-color: skyblue;
+      color: white;
+  }
+  
+  
